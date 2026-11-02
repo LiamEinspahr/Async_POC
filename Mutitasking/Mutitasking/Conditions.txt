@@ -1,0 +1,38 @@
+﻿==========TASKS==========
+
+1. CallFriend -- Can happen during ny other task
+	0 awaitingCall - *
+	1 pickingUpCall - *
+	2 calling - *
+	3 hangUpCall - *
+
+
+2. Dishes -- Must happen after PrepareFood
+	A washDishes - xB, xC
+	B dryDishes - xA, xC
+	C puttingUpDishes - xA, xB, xD, xF, xI, xJ, xK, xL, xM, xN, xO
+
+
+3. DoHomework -- 2 or more things can be done during the break
+	D startHomework - xA, xB, xC, xE, xF, xI, xJ, xK (can do L), xM, xN, xO
+	E quickBreak - *
+	F turnInHomework - xA, xB, xC, xD, xE, xI, xJ (can do L), xM, xN, xO
+
+
+4. Laundry
+	G washClothes - xH, xI
+	H dryingClothes - xG, xI
+	I foldClothes - xC, xD, xF, xG, xH, xJ, xL, xM, xN, xO
+
+
+5. PrepareFood
+	J prepareIngredients - xC, xD, xF, xI, xK, xL, xM, xN, xO
+	K cookFood - xC, xD, xF,xI, xJ, xL, xM, xN, xO
+	L eatFood - *
+
+
+
+6. TidyUp
+	M putThingsBack - xC, xD, xF, xI, xJ, xK, xN, xO
+	N vaccuum - xC, xD, xF, xI, xJ, xK, xM, xO
+	O makeBed - xC, xD, xF, xI, xJ, xK, xM, xN

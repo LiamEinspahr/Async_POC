@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rUPFKuZQkkE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\WesEi\\OneDrive\\Desktop\\github\\Async_POC\\Mutitasking\\Mutitasking\\Mutitasking.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WesEi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.14\\microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512",
+    "C:\\Users\\WesEi\\.nuget\\packages\\microsoft.openapi\\2.12.2\\microsoft.openapi.2.12.2.nupkg.sha512"
+  ],
+  "logs": []
+}
