@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(dotnet build \"C:\\\\Users\\\\WesEi\\\\OneDrive\\\\Desktop\\\\github\\\\Async_POC\\\\Mutitasking\\\\Mutitasking\\\\Mutitasking.csproj\" -nologo -v q 2>&1 | Select-String -Pattern \"error|Warning\\\\\\(s\\\\\\)|Error\\\\\\(s\\\\\\)|Build succeeded|Build FAILED\" | ForEach-Object { $_.Line.Trim\\(\\) } | Sort-Object -Unique)"
+    ]
+  }
+}

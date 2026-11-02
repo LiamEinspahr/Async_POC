@@ -8,29 +8,31 @@
 
         }
 
-        public void AwaitingCall()
+        public async Task AwaitingCall(int seconds)
         {
-            Console.WriteLine("Waiting on  call from my friend...\n");
+            Log.Write("Waiting on  call from my friend...");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
         }
 
-        public void PickingUpCall()
+        public async Task PickingUpCall(int seconds)
         {
-            Console.WriteLine("I need to pick up the phone...\n");
+            Log.Write("I need to pick up the phone...");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
         }
 
-        public void Calling()
+        public async Task Calling(int seconds)
         {
-            Console.WriteLine("On a call with my friend...\n");
+            Log.Write("On a call with my friend...");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
         }
 
-        public void HangUpCall()
+        public async Task HangUpCall(int seconds)
         {
-            Console.WriteLine("Hanging up the call...\n");
+            Log.Write("Hanging up the call...");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
         }
-        public void Done()
-        {
-            Console.WriteLine("Done calling my friend!\n");
-        }
+        public void Done() => Log.Write("Done calling my friend!");
+
 
     }
 }

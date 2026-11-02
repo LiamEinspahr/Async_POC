@@ -5,12 +5,24 @@
 
         public Dishes() { }
 
-        public void WashDishes() { Console.WriteLine("Washing the dishes...\n"); }
+        public async Task WashDishes(int seconds) 
+        { 
+            Log.Write("Washing the dishes...");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
+        }
 
-        public void DryDishes() { Console.WriteLine("Drying the dishes...\n"); }
+        public async Task DryDishes(int seconds) 
+        { 
+            Log.Write("Drying the dishes...");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
+        }
 
-        public void PuttingUpDishes() { Console.WriteLine("Putting up dishes...\n");  }
+        public async Task PuttingUpDishes(int seconds) 
+        { 
+            Log.Write("Putting up dishes...");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
+        }
 
-        public void Done() { Console.WriteLine("Done with dishes!\n"); }
+        public void Done() => Log.Write("Done with dishes!");
     }
 }

@@ -4,12 +4,24 @@
     {
         public TidyUp() { }
 
-        public void PutThingsBack() { Console.WriteLine("Putting things back where they belong...\n");  }
+        public async Task PutThingsBack(int seconds) 
+        { 
+            Log.Write("Putting things back where they belong...");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
+        }
 
-        public void Vaccuum() { Console.WriteLine("Vaccuuming everything...\n");  }
+        public async Task Vaccuum(int seconds) 
+        {
+            Log.Write("Vaccuuming everything...");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
+        }
 
-        public void MakeBed() { Console.WriteLine("Making my bed....\n");  }
+        public async Task MakeBed(int seconds) 
+        {
+            Log.Write("Making my bed....");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
+        }
 
-        public void Done() { Console.WriteLine("Done tidying up!\n");  }
+        public void Done() => Log.Write("Done tidying up!");
     }
 }

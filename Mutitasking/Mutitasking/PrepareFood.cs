@@ -4,12 +4,24 @@
     {
         public PrepareFood() { }
 
-        public void PrepareIngredients() { Console.WriteLine("Preparing meal ingredients...\n");  }
+        public async Task PrepareIngredients(int seconds) 
+        {
+            Log.Write("Preparing meal ingredients...");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
+        }
 
-        public void CookFood() { Console.WriteLine("Cooking meal\n");  }
+        public async Task CookFood(int seconds) 
+        { 
+            Log.Write("Cooking meal");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
+        }
 
-        public void EatFood() { Console.WriteLine("Eating food nom nom....\n");  }
+        public async Task EatFood(int seconds)
+        {
+            Log.Write("Eating food nom nom....");
+            await Task.Delay(TimeSpan.FromSeconds(seconds));
+        }
 
-        public void Done() { Console.WriteLine("Done preparing a meal!\n");  }
+        public void Done() => Log.Write("Done preparing a meal!");
     }
 }

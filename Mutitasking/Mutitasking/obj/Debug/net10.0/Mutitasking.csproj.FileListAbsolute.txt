@@ -31,3 +31,4 @@ C:\Users\WesEi\OneDrive\Desktop\github\Async_POC\Mutitasking\Mutitasking\obj\Deb
 C:\Users\WesEi\OneDrive\Desktop\github\Async_POC\Mutitasking\Mutitasking\obj\Debug\net10.0\Mutitasking.pdb
 C:\Users\WesEi\OneDrive\Desktop\github\Async_POC\Mutitasking\Mutitasking\obj\Debug\net10.0\Mutitasking.genruntimeconfig.cache
 C:\Users\WesEi\OneDrive\Desktop\github\Async_POC\Mutitasking\Mutitasking\obj\Debug\net10.0\ref\Mutitasking.dll
+C:\Users\WesEi\OneDrive\Desktop\github\Async_POC\Mutitasking\Mutitasking\obj\Debug\net10.0\Mutitasking.sourcelink.json

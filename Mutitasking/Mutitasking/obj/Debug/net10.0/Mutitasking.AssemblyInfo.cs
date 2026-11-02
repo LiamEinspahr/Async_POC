@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mutitasking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee461693d04680554af3c577dd516dc4081be57f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mutitasking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mutitasking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
